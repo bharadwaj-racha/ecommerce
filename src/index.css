@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+#navbar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #e9e9e9;
+}
+
+#hero h1 {
+  font-size: 50px;
+  color: #333;
+}
+
+.section-p1 {
+  padding: 20px 0;
+}
+
+.pro-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pro {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.pro img {
+  width: 100%;
+  height: auto;
+}
+
+.des {
+  margin-top: 10px;
+}
+
+.cart {
+  color: #333;
+  margin-top: 10px;
+}
